@@ -1,0 +1,62 @@
+body {
+ background-color: lightyellow;
+}
+h1 {
+ color: black;
+ text-align: center;
+ font-size: 50px; 
+ font-weight: bold;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ font-family: "Nunito";
+}
+
+h3 {
+    color: black;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-family: "Georgia";
+    font-size: 17px;
+}
+
+.borde-amarillo {
+    border: 2px solid #CBD48C; 
+}
+
+.borde-rojo {
+    border: 2px solid #B93B37; 
+}
+
+.borde-verde {
+    border: 2px solid #539A63; 
+}
+
+.borde-azul {
+    border: 2px solid #6C729B; 
+}
+
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+  
+.accordion-item:target .accordion-content {
+    display: block;
+}
+  
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+.accordion-link {
+    
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: bold;
+}
